@@ -1,0 +1,152 @@
+body {
+    background-color: #002B5B;
+    color: #ffff;
+}
+
+h1 {
+    /*font-family: 'Rubik Pixels', cursive;*/
+    font-family: 'Wallpoet', cursive;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 2px;
+    margin-left: 10px;
+    font-size: 80px;
+
+    color: #ffc247;
+
+}
+
+h6 {
+    font-family: 'Wallpoet', cursive;
+    color: #ffc247;
+    margin-top: 0px;
+    margin-right: 5px;
+    margin-bottom: 30px;
+    margin-left: 16px;
+}
+
+#yjb {
+    font-family: 'Wallpoet', cursive;
+    color: #ffc247;
+
+    margin-top: 55px;
+    margin-left: 465px;
+    margin-right: 1px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#encabezado {
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.mayor {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#snResultado, #ingreseText, #resultado{
+
+    background-color: #070d29;
+    color: aliceblue;
+    width: 300px;
+    height: 501px;
+    border-radius: 30px;
+}
+
+#parrafoResultado{
+    width: 300px;
+    height: 501px;
+}
+
+#imgespera {
+    width: 320px;
+
+}
+
+#piedepagina {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    justify-content: center;
+}
+
+
+#texttt, #parrafoResultado {
+    width: 280px;
+    height: 480px;
+    border-radius: 30px;
+    background-color: transparent;
+    border-color: #ffc247;
+    resize: none;
+    color: #ffff;
+    padding: 10px;
+
+}
+
+button {
+    width: 120px;
+    height: 36px;
+
+}
+
+#encriptar {
+    background-color: #fc79aa;
+    border-radius: 10px;
+}
+
+#botonesTexto {
+    justify-content: space-evenly;
+    display: flex;
+}
+
+#desencriptar {
+    background-color: #d788e1;
+    border-radius: 10px;
+}
+
+#copiar{
+    margin-top: -37px;
+    width: 25px;
+    height: 25px;
+    margin-right: 13px;
+}
+#imgcopy{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+@media only screen and (max-width: 650px) {
+
+    body {
+        display: flex;
+        background-color: #002B5B;
+        color: #ffff;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .mayor {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+
+
+    #snResultado{
+        margin-top: 74px;
+    }
+}
+
